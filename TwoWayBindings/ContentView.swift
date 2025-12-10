@@ -25,6 +25,7 @@ struct ContentView: View {
             
             Spacer()
             
+            //Text entry field
             TextField("Enter a name", text: $name)
                 .textFieldStyle(.roundedBorder)
             Text("Name entered: \(name)")
